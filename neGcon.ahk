@@ -42,13 +42,13 @@ Joy2::
 return
 
 Joy8::
-    Send {r down}
+    Send {R down}
     KeyWait Joy8
-    Send {r up}
+    Send {R up}
 return
 
 Joy10::
     Send {space down}
     KeyWait Joy8
     Send {space up}
-return
+return  
